@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "contacts info",
+  "main": "index.js",
+  "author": "Larissa Fraga",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  },
+  "scripts": {
+    "server": "json-server --watch backend.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
